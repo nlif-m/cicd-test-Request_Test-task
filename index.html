@@ -12,11 +12,10 @@
 <body>
     <header class="header full">
         <ul class="header_wrap center">
-            <li class="block">
+            <li class="header_left_block">
                 <a class="main_logo" href="#">
                     <img src="img/main_logo.png" alt="main_logo">
                 </a>
-
                 <ul class="header_nav">
                     <li>
                         <a href="#" class="header_nav_txt">Главная</a>
@@ -56,60 +55,422 @@
             <li>
                 <ul class="header_account">
                     <li class="header_account_item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-                            <circle cx="24.5" cy="24.5" r="24.5" fill="#F9F9F9" />
-                            <path
-                                d="M34.2232 33.8578V31.6184C34.2232 30.4306 33.7338 29.2914 32.8628 28.4515C31.9918 27.6115 30.8104 27.1396 29.5785 27.1396H20.2892C19.0574 27.1396 17.876 27.6115 17.0049 28.4515C16.1339 29.2914 15.6445 30.4306 15.6445 31.6184V33.8578"
-                                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M24.9337 22.6607C27.4989 22.6607 29.5784 20.6555 29.5784 18.1819C29.5784 15.7083 27.4989 13.7031 24.9337 13.7031C22.3685 13.7031 20.2891 15.7083 20.2891 18.1819C20.2891 20.6555 22.3685 22.6607 24.9337 22.6607Z"
-                                stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </li>
-                    <li class="header_account_item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6001_18)">
+                        <button class="btn_header_account">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49"
+                                fill="none">
+                                <circle cx="24.5" cy="24.5" r="24.5" fill="white" />
                                 <path
-                                    d="M9.94939 6.94939C10.4932 6.40553 11.2309 6.1 12 6.1C12.7691 6.1 13.5068 6.40553 14.0506 6.94939C14.5945 7.49325 14.9 8.23087 14.9 9V21C14.9 21.7691 14.5945 22.5068 14.0506 23.0506C13.5068 23.5945 12.7691 23.9 12 23.9C11.2309 23.9 10.4932 23.5945 9.94939 23.0506C9.40553 22.5068 9.1 21.7691 9.1 21V9C9.1 8.23087 9.40553 7.49325 9.94939 6.94939ZM12.7778 21.7778C12.9841 21.5715 13.1 21.2917 13.1 21V9C13.1 8.70826 12.9841 8.42847 12.7778 8.22218C12.5715 8.01589 12.2917 7.9 12 7.9C11.7083 7.9 11.4285 8.01589 11.2222 8.22218C11.0159 8.42847 10.9 8.70826 10.9 9V21C10.9 21.2917 11.0159 21.5715 11.2222 21.7778C11.4285 21.9841 11.7083 22.1 12 22.1C12.2917 22.1 12.5715 21.9841 12.7778 21.7778Z"
-                                    fill="#292D32" stroke="#FAFAFA" stroke-width="0.2" />
+                                    d="M34.2232 33.8578V31.6184C34.2232 30.4306 33.7338 29.2914 32.8628 28.4515C31.9918 27.6115 30.8104 27.1396 29.5785 27.1396H20.2892C19.0574 27.1396 17.876 27.6115 17.0049 28.4515C16.1339 29.2914 15.6445 30.4306 15.6445 31.6184V33.8578"
+                                    stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                                 <path
-                                    d="M18.9494 0.94939C19.4932 0.405535 20.2309 0.1 21 0.1C21.7691 0.1 22.5068 0.405535 23.0506 0.94939C23.5945 1.49325 23.9 2.23087 23.9 3V21C23.9 21.7691 23.5945 22.5068 23.0506 23.0506C22.5068 23.5945 21.7691 23.9 21 23.9C20.2309 23.9 19.4932 23.5945 18.9494 23.0506C18.4055 22.5068 18.1 21.7691 18.1 21V3C18.1 2.23087 18.4055 1.49325 18.9494 0.94939ZM21.7778 21.7778C21.9841 21.5715 22.1 21.2917 22.1 21V3C22.1 2.70826 21.9841 2.42847 21.7778 2.22218C21.5715 2.01589 21.2917 1.9 21 1.9C20.7083 1.9 20.4285 2.01589 20.2222 2.22218C20.0159 2.42847 19.9 2.70826 19.9 3V21C19.9 21.2917 20.0159 21.5715 20.2222 21.7778C20.4285 21.9841 20.7083 22.1 21 22.1C21.2917 22.1 21.5715 21.9841 21.7778 21.7778Z"
-                                    fill="#292D32" stroke="#FAFAFA" stroke-width="0.2" />
-                                <rect x="0.75" y="12.75" width="4.5" height="10.5" rx="2.25" stroke="#292D32"
-                                    stroke-width="1.5" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6001_18">
-                                    <rect width="24" height="24" fill="white" />
-                                </clipPath>
-                            </defs>
-                        </svg>
+                                    d="M24.9337 22.6607C27.4989 22.6607 29.5784 20.6555 29.5784 18.1819C29.5784 15.7083 27.4989 13.7031 24.9337 13.7031C22.3685 13.7031 20.2891 15.7083 20.2891 18.1819C20.2891 20.6555 22.3685 22.6607 24.9337 22.6607Z"
+                                    stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
                     </li>
                     <li class="header_account_item">
-                        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z"
-                                    stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                            </g>
-                        </svg>
+                        <button class="btn_header_account">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <g clip-path="url(#clip0_6001_18)">
+                                    <path
+                                        d="M9.94939 6.94939C10.4932 6.40553 11.2309 6.1 12 6.1C12.7691 6.1 13.5068 6.40553 14.0506 6.94939C14.5945 7.49325 14.9 8.23087 14.9 9V21C14.9 21.7691 14.5945 22.5068 14.0506 23.0506C13.5068 23.5945 12.7691 23.9 12 23.9C11.2309 23.9 10.4932 23.5945 9.94939 23.0506C9.40553 22.5068 9.1 21.7691 9.1 21V9C9.1 8.23087 9.40553 7.49325 9.94939 6.94939ZM12.7778 21.7778C12.9841 21.5715 13.1 21.2917 13.1 21V9C13.1 8.70826 12.9841 8.42847 12.7778 8.22218C12.5715 8.01589 12.2917 7.9 12 7.9C11.7083 7.9 11.4285 8.01589 11.2222 8.22218C11.0159 8.42847 10.9 8.70826 10.9 9V21C10.9 21.2917 11.0159 21.5715 11.2222 21.7778C11.4285 21.9841 11.7083 22.1 12 22.1C12.2917 22.1 12.5715 21.9841 12.7778 21.7778Z"
+                                        fill="#292D32" stroke="#FAFAFA" stroke-width="0.2" />
+                                    <path
+                                        d="M18.9494 0.94939C19.4932 0.405535 20.2309 0.1 21 0.1C21.7691 0.1 22.5068 0.405535 23.0506 0.94939C23.5945 1.49325 23.9 2.23087 23.9 3V21C23.9 21.7691 23.5945 22.5068 23.0506 23.0506C22.5068 23.5945 21.7691 23.9 21 23.9C20.2309 23.9 19.4932 23.5945 18.9494 23.0506C18.4055 22.5068 18.1 21.7691 18.1 21V3C18.1 2.23087 18.4055 1.49325 18.9494 0.94939ZM21.7778 21.7778C21.9841 21.5715 22.1 21.2917 22.1 21V3C22.1 2.70826 21.9841 2.42847 21.7778 2.22218C21.5715 2.01589 21.2917 1.9 21 1.9C20.7083 1.9 20.4285 2.01589 20.2222 2.22218C20.0159 2.42847 19.9 2.70826 19.9 3V21C19.9 21.2917 20.0159 21.5715 20.2222 21.7778C20.4285 21.9841 20.7083 22.1 21 22.1C21.2917 22.1 21.5715 21.9841 21.7778 21.7778Z"
+                                        fill="#292D32" stroke="#FAFAFA" stroke-width="0.2" />
+                                    <rect x="0.75" y="12.75" width="4.5" height="10.5" rx="2.25" stroke="#292D32"
+                                        stroke-width="1.5" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6001_18">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
                     </li>
                     <li class="header_account_item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
-                            <path
-                                d="M18.1158 8.69568V6.55802C18.1158 5.8919 17.9846 5.2323 17.7297 4.61689C17.4748 4.00147 17.1011 3.44229 16.6301 2.97127C16.1591 2.50026 15.5999 2.12662 14.9845 1.87171C14.3691 1.6168 13.7095 1.4856 13.0434 1.4856C12.3773 1.4856 11.7177 1.6168 11.1022 1.87171C10.4868 2.12662 9.92765 2.50026 9.45663 2.97127C8.98561 3.44229 8.61198 4.00147 8.35707 4.61689C8.10215 5.2323 7.97095 5.8919 7.97095 6.55802V11.6304C7.97095 11.8226 8.0473 12.0069 8.18319 12.1428C8.31909 12.2787 8.5034 12.3551 8.69558 12.3551C8.88777 12.3551 9.07208 12.2787 9.20798 12.1428C9.34387 12.0069 9.42022 11.8226 9.42022 11.6304V10.1449H15.2173V8.69568H9.42022V6.55802C9.42022 5.5971 9.80194 4.67553 10.4814 3.99606C11.1609 3.31658 12.0825 2.93486 13.0434 2.93486C14.0043 2.93486 14.9259 3.31658 15.6053 3.99606C16.2848 4.67553 16.6665 5.5971 16.6665 6.55802V11.5942C16.6665 11.7864 16.7429 11.9707 16.8788 12.1066C17.0147 12.2425 17.199 12.3188 17.3912 12.3188C17.5833 12.3188 17.7677 12.2425 17.9036 12.1066C18.0395 11.9707 18.1158 11.7864 18.1158 11.5942V10.1449H21.739V23.1883H4.34779V10.1449H6.52169V8.69568H2.89853V23.2535C2.89853 23.6206 3.04435 23.9726 3.30391 24.2322C3.56347 24.4918 3.9155 24.6376 4.28258 24.6376H21.8042C22.1712 24.6376 22.5233 24.4918 22.7828 24.2322C23.0424 23.9726 23.1882 23.6206 23.1882 23.2535V8.69568H18.1158Z"
-                                fill="#292D32" />
-                        </svg>
+                        <button class="btn_header_account">
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z"
+                                        stroke="#292D32" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </g>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="header_account_item header_account_cart">
+                        <button class="btn_header_account">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                                fill="none">
+                                <path
+                                    d="M18.1158 8.69568V6.55802C18.1158 5.8919 17.9846 5.2323 17.7297 4.61689C17.4748 4.00147 17.1011 3.44229 16.6301 2.97127C16.1591 2.50026 15.5999 2.12662 14.9845 1.87171C14.3691 1.6168 13.7095 1.4856 13.0434 1.4856C12.3773 1.4856 11.7177 1.6168 11.1022 1.87171C10.4868 2.12662 9.92765 2.50026 9.45663 2.97127C8.98561 3.44229 8.61198 4.00147 8.35707 4.61689C8.10215 5.2323 7.97095 5.8919 7.97095 6.55802V11.6304C7.97095 11.8226 8.0473 12.0069 8.18319 12.1428C8.31909 12.2787 8.5034 12.3551 8.69558 12.3551C8.88777 12.3551 9.07208 12.2787 9.20798 12.1428C9.34387 12.0069 9.42022 11.8226 9.42022 11.6304V10.1449H15.2173V8.69568H9.42022V6.55802C9.42022 5.5971 9.80194 4.67553 10.4814 3.99606C11.1609 3.31658 12.0825 2.93486 13.0434 2.93486C14.0043 2.93486 14.9259 3.31658 15.6053 3.99606C16.2848 4.67553 16.6665 5.5971 16.6665 6.55802V11.5942C16.6665 11.7864 16.7429 11.9707 16.8788 12.1066C17.0147 12.2425 17.199 12.3188 17.3912 12.3188C17.5833 12.3188 17.7677 12.2425 17.9036 12.1066C18.0395 11.9707 18.1158 11.7864 18.1158 11.5942V10.1449H21.739V23.1883H4.34779V10.1449H6.52169V8.69568H2.89853V23.2535C2.89853 23.6206 3.04435 23.9726 3.30391 24.2322C3.56347 24.4918 3.9155 24.6376 4.28258 24.6376H21.8042C22.1712 24.6376 22.5233 24.4918 22.7828 24.2322C23.0424 23.9726 23.1882 23.6206 23.1882 23.2535V8.69568H18.1158Z"
+                                    fill="#292D32" />
+                            </svg>
+                        </button>
                     </li>
                 </ul>
             </li>
         </ul>
-
     </header>
+    <section class="slider_container_full full">
+        <div class="slider-container center">
+            <div class="slide fade ">
+                <svg class="dell_bcg_slider" xmlns="http://www.w3.org/2000/svg" width="767" height="202"
+                    viewBox="0 0 767 202" fill="none">
+                    <path
+                        d="M7.776 0.399902H90.72C118.752 0.399902 141.792 7.4079 159.84 21.4239C178.08 35.2479 187.2 54.6399 187.2 79.5999V122.512C187.2 148.624 178.368 168.4 160.704 181.84C143.04 195.28 119.808 202 91.008 202H7.776C5.664 202 3.84 201.232 2.304 199.696C0.768001 198.16 0 196.336 0 194.224V8.1759C0 6.06391 0.768001 4.23991 2.304 2.70391C3.84 1.16791 5.664 0.399902 7.776 0.399902ZM72 56.5599V145.84H90.72C97.248 145.84 102.432 143.92 106.272 140.08C110.304 136.048 112.32 130.192 112.32 122.512V79.5999C112.32 64.2399 105.12 56.5599 90.72 56.5599H72Z"
+                        fill="url(#paint0_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M287.932 145.84H376.637C378.749 145.84 380.573 146.608 382.109 148.144C383.645 149.68 384.413 151.504 384.413 153.616V194.224C384.413 196.336 383.645 198.16 382.109 199.696C380.573 201.232 378.749 202 376.637 202H226.589C224.477 202 222.652 201.232 221.117 199.696C219.581 198.16 218.812 196.336 218.812 194.224V8.1759C218.812 6.06391 219.581 4.23991 221.117 2.70391C222.652 1.16791 224.477 0.399902 226.589 0.399902H374.332C376.444 0.399902 378.269 1.16791 379.805 2.70391C381.341 4.23991 382.109 6.06391 382.109 8.1759V48.7839C382.109 50.8959 381.341 52.7199 379.805 54.2559C378.269 55.7919 376.444 56.5599 374.332 56.5599H287.932V74.7039H367.996C370.108 74.7039 371.932 75.4719 373.469 77.0079C375.004 78.5439 375.772 80.3679 375.772 82.4799V119.92C375.772 122.032 375.004 123.856 373.469 125.392C371.932 126.928 370.108 127.696 367.996 127.696H287.932V145.84Z"
+                        fill="url(#paint1_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M492.215 142.96H571.99C574.102 142.96 575.927 143.728 577.463 145.264C578.999 146.8 579.766 148.624 579.766 150.736V194.224C579.766 196.336 578.999 198.16 577.463 199.696C575.927 201.232 574.102 202 571.99 202H426.839C424.727 202 422.902 201.232 421.366 199.696C419.83 198.16 419.062 196.336 419.062 194.224V8.1759C419.062 6.06391 419.83 4.23991 421.366 2.70391C422.902 1.16791 424.727 0.399902 426.839 0.399902H484.439C486.551 0.399902 488.374 1.16791 489.91 2.70391C491.447 4.23991 492.215 6.06391 492.215 8.1759V142.96Z"
+                        fill="url(#paint2_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M678.964 142.96H758.74C760.852 142.96 762.677 143.728 764.213 145.264C765.749 146.8 766.516 148.624 766.516 150.736V194.224C766.516 196.336 765.749 198.16 764.213 199.696C762.677 201.232 760.852 202 758.74 202H613.589C611.477 202 609.652 201.232 608.116 199.696C606.58 198.16 605.812 196.336 605.812 194.224V8.1759C605.812 6.06391 606.58 4.23991 608.116 2.70391C609.652 1.16791 611.477 0.399902 613.589 0.399902H671.188C673.3 0.399902 675.125 1.16791 676.661 2.70391C678.197 4.23991 678.964 6.06391 678.964 8.1759V142.96Z"
+                        fill="url(#paint3_linear_1_101)" fill-opacity="0.7" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <img class="slide-image" src="img/Photo for slider 1.png" alt="slider 1">
+                <div class="slide-content">
+                    <p class="slide_uptitle">Новое поступление</p>
+                    <p class="slide-title">Лучшие товары<br />от&nbsp;компании Dell</p>
+                    <button class="slide_btn slide_btn_position">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+            <div class="slide fade ">
+                <svg class="dell_bcg_slider" xmlns="http://www.w3.org/2000/svg" width="767" height="202"
+                    viewBox="0 0 767 202" fill="none">
+                    <path
+                        d="M7.776 0.399902H90.72C118.752 0.399902 141.792 7.4079 159.84 21.4239C178.08 35.2479 187.2 54.6399 187.2 79.5999V122.512C187.2 148.624 178.368 168.4 160.704 181.84C143.04 195.28 119.808 202 91.008 202H7.776C5.664 202 3.84 201.232 2.304 199.696C0.768001 198.16 0 196.336 0 194.224V8.1759C0 6.06391 0.768001 4.23991 2.304 2.70391C3.84 1.16791 5.664 0.399902 7.776 0.399902ZM72 56.5599V145.84H90.72C97.248 145.84 102.432 143.92 106.272 140.08C110.304 136.048 112.32 130.192 112.32 122.512V79.5999C112.32 64.2399 105.12 56.5599 90.72 56.5599H72Z"
+                        fill="url(#paint0_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M287.932 145.84H376.637C378.749 145.84 380.573 146.608 382.109 148.144C383.645 149.68 384.413 151.504 384.413 153.616V194.224C384.413 196.336 383.645 198.16 382.109 199.696C380.573 201.232 378.749 202 376.637 202H226.589C224.477 202 222.652 201.232 221.117 199.696C219.581 198.16 218.812 196.336 218.812 194.224V8.1759C218.812 6.06391 219.581 4.23991 221.117 2.70391C222.652 1.16791 224.477 0.399902 226.589 0.399902H374.332C376.444 0.399902 378.269 1.16791 379.805 2.70391C381.341 4.23991 382.109 6.06391 382.109 8.1759V48.7839C382.109 50.8959 381.341 52.7199 379.805 54.2559C378.269 55.7919 376.444 56.5599 374.332 56.5599H287.932V74.7039H367.996C370.108 74.7039 371.932 75.4719 373.469 77.0079C375.004 78.5439 375.772 80.3679 375.772 82.4799V119.92C375.772 122.032 375.004 123.856 373.469 125.392C371.932 126.928 370.108 127.696 367.996 127.696H287.932V145.84Z"
+                        fill="url(#paint1_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M492.215 142.96H571.99C574.102 142.96 575.927 143.728 577.463 145.264C578.999 146.8 579.766 148.624 579.766 150.736V194.224C579.766 196.336 578.999 198.16 577.463 199.696C575.927 201.232 574.102 202 571.99 202H426.839C424.727 202 422.902 201.232 421.366 199.696C419.83 198.16 419.062 196.336 419.062 194.224V8.1759C419.062 6.06391 419.83 4.23991 421.366 2.70391C422.902 1.16791 424.727 0.399902 426.839 0.399902H484.439C486.551 0.399902 488.374 1.16791 489.91 2.70391C491.447 4.23991 492.215 6.06391 492.215 8.1759V142.96Z"
+                        fill="url(#paint2_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M678.964 142.96H758.74C760.852 142.96 762.677 143.728 764.213 145.264C765.749 146.8 766.516 148.624 766.516 150.736V194.224C766.516 196.336 765.749 198.16 764.213 199.696C762.677 201.232 760.852 202 758.74 202H613.589C611.477 202 609.652 201.232 608.116 199.696C606.58 198.16 605.812 196.336 605.812 194.224V8.1759C605.812 6.06391 606.58 4.23991 608.116 2.70391C609.652 1.16791 611.477 0.399902 613.589 0.399902H671.188C673.3 0.399902 675.125 1.16791 676.661 2.70391C678.197 4.23991 678.964 6.06391 678.964 8.1759V142.96Z"
+                        fill="url(#paint3_linear_1_101)" fill-opacity="0.7" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <img class="slide-image" src="img/Photo for slider 2.png" alt="slider 2">
+                <div class="slide-content">
+                    <p class="slide_uptitle">Новое поступление</p>
+                    <p class="slide-title">Выгодное предложение от&nbsp;Dell</p>
+                    <button class="slide_btn slide_btn_position">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+            <div class="slide fade ">
+                <svg class="dell_bcg_slider" xmlns="http://www.w3.org/2000/svg" width="767" height="202"
+                    viewBox="0 0 767 202" fill="none">
+                    <path
+                        d="M7.776 0.399902H90.72C118.752 0.399902 141.792 7.4079 159.84 21.4239C178.08 35.2479 187.2 54.6399 187.2 79.5999V122.512C187.2 148.624 178.368 168.4 160.704 181.84C143.04 195.28 119.808 202 91.008 202H7.776C5.664 202 3.84 201.232 2.304 199.696C0.768001 198.16 0 196.336 0 194.224V8.1759C0 6.06391 0.768001 4.23991 2.304 2.70391C3.84 1.16791 5.664 0.399902 7.776 0.399902ZM72 56.5599V145.84H90.72C97.248 145.84 102.432 143.92 106.272 140.08C110.304 136.048 112.32 130.192 112.32 122.512V79.5999C112.32 64.2399 105.12 56.5599 90.72 56.5599H72Z"
+                        fill="url(#paint0_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M287.932 145.84H376.637C378.749 145.84 380.573 146.608 382.109 148.144C383.645 149.68 384.413 151.504 384.413 153.616V194.224C384.413 196.336 383.645 198.16 382.109 199.696C380.573 201.232 378.749 202 376.637 202H226.589C224.477 202 222.652 201.232 221.117 199.696C219.581 198.16 218.812 196.336 218.812 194.224V8.1759C218.812 6.06391 219.581 4.23991 221.117 2.70391C222.652 1.16791 224.477 0.399902 226.589 0.399902H374.332C376.444 0.399902 378.269 1.16791 379.805 2.70391C381.341 4.23991 382.109 6.06391 382.109 8.1759V48.7839C382.109 50.8959 381.341 52.7199 379.805 54.2559C378.269 55.7919 376.444 56.5599 374.332 56.5599H287.932V74.7039H367.996C370.108 74.7039 371.932 75.4719 373.469 77.0079C375.004 78.5439 375.772 80.3679 375.772 82.4799V119.92C375.772 122.032 375.004 123.856 373.469 125.392C371.932 126.928 370.108 127.696 367.996 127.696H287.932V145.84Z"
+                        fill="url(#paint1_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M492.215 142.96H571.99C574.102 142.96 575.927 143.728 577.463 145.264C578.999 146.8 579.766 148.624 579.766 150.736V194.224C579.766 196.336 578.999 198.16 577.463 199.696C575.927 201.232 574.102 202 571.99 202H426.839C424.727 202 422.902 201.232 421.366 199.696C419.83 198.16 419.062 196.336 419.062 194.224V8.1759C419.062 6.06391 419.83 4.23991 421.366 2.70391C422.902 1.16791 424.727 0.399902 426.839 0.399902H484.439C486.551 0.399902 488.374 1.16791 489.91 2.70391C491.447 4.23991 492.215 6.06391 492.215 8.1759V142.96Z"
+                        fill="url(#paint2_linear_1_101)" fill-opacity="0.7" />
+                    <path
+                        d="M678.964 142.96H758.74C760.852 142.96 762.677 143.728 764.213 145.264C765.749 146.8 766.516 148.624 766.516 150.736V194.224C766.516 196.336 765.749 198.16 764.213 199.696C762.677 201.232 760.852 202 758.74 202H613.589C611.477 202 609.652 201.232 608.116 199.696C606.58 198.16 605.812 196.336 605.812 194.224V8.1759C605.812 6.06391 606.58 4.23991 608.116 2.70391C609.652 1.16791 611.477 0.399902 613.589 0.399902H671.188C673.3 0.399902 675.125 1.16791 676.661 2.70391C678.197 4.23991 678.964 6.06391 678.964 8.1759V142.96Z"
+                        fill="url(#paint3_linear_1_101)" fill-opacity="0.7" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear_1_101" x1="378.356" y1="12.2246" x2="378.356" y2="202"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.979167" />
+                            <stop offset="1" stop-color="#F2F2F2" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <img class="slide-image"
+                    src="https://images.unsplash.com/photo-1682685797828-d3b2561deef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+                    alt="slider 3">
+                <div class="slide-content">
+                    <p class="slide_uptitle">Новое поступление</p>
+                    <p class="slide-title">сижу 7-ой час. пока без фонового dell</p>
+                    <button class="slide_btn slide_btn_position">
+                        Подробнее
+                    </button>
+                </div>
+            </div>
+            <!-- Next and previous buttons -->
+            <div class="slider-nav">
+                <!-- <a class="slider-nav-btn" onclick="plusSlides(-1)">
+                    <ion-icon name="caret-back-outline"></ion-icon>
+                </a> -->
+                <a class="slider-nav-btn" onclick="plusSlides(1)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="106" height="23" viewBox="0 0 106 23" fill="none">
+                        <path d="M94 1L104.5 11.5M104.5 11.5L94 22M104.5 11.5H0" stroke="#292D32" stroke-width="1.5" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- The dots/circles -->
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+    <section class="catalog full">
+        <ul class="catalog_container center">
+            <li class="catalog_item">
+                <p class="catalog_title">Каталог товаров от Dell</p>
+                <p class="catalog_subtitle">Наша компания является зарегистрированным и официальным партнером Dell в
+                    России.</p>
+                <div class="catalog_link catalog_link_position">
+                    <button class="catalog_btn">
+                        В каталог
+                    </button>
+                </div>
+            </li>
+            <li class="catalog_item">
+                <button class="catalog_item_btn">
+                    <p class="catalog_item_num">01</p>
+                    <img class="catalog_img catalog_laptop" src="img/catalog_laptop.png" alt="laptop">
+                    <p class="catalog_amount">105 товаров</p>
+                    <p class="catalog_name">Ноутбуки</p>
+                </button>
+            </li>
+            <li class="catalog_item">
+                <button class="catalog_item_btn">
+                    <p class="catalog_item_num">02</p>
+                    <img class="catalog_img catalog_pc" src="img/catalog_pc.png" alt="pc">
+                    <p class="catalog_amount">65 товаров</p>
+                    <p class="catalog_name">Персональные компьютеры</p>
+                </button>
+            </li>
+            <li class="catalog_item">
+                <button class="catalog_item_btn">
+                    <p class="catalog_item_num">03</p>
+                    <img class="catalog_img catalog_servers" src="img/catalog_servers.png" alt="servers">
+                    <p class="catalog_amount">13 товаров</p>
+                    <p class="catalog_name">Серверы</p>
+                </button>
+            </li>
+            <li class="catalog_item">
+                <button class="catalog_item_btn">
+                    <p class="catalog_item_num">04</p>
+                    <img class="catalog_img catalog_emc" src="img/catalog_emc.png" alt="emc">
+                    <p class="catalog_amount">2345 товаров</p>
+                    <p class="catalog_name">Dell EMC</p>
+                </button>
+            </li>
+            <li class="catalog_item">
+                <button class="catalog_item_btn">
+                    <p class="catalog_item_num">05</p>
+                    <img class="catalog_img catalog_reserve_emc" src="img/catalog_reserve_emc.png" alt="reserve_emc">
+                    <p class="catalog_amount">195 товаров</p>
+                    <p class="catalog_name">Запасные части к Dell EMC</p>
+                </button>
+            </li>
+        </ul>
+    </section>
+    <section class="advantages full">
+        <div class="advantages_container center">
+            <p class="best_quality_bcg">
+                best <br>quality
+            </p>
+            <div class="adv_top">
+                <img class="adv_laptop_img" src="img/adv_laptop.png" alt="adv_laptop">
+                <div class="adv_top_wrp">
+                    <p class="adv_title">Наши преимущества</p>
+                    <p class="adv_subtitle">Оптимизация мощностей (расходов, социальных выплат и&nbsp;т.п.) позволили
+                        компании на&nbsp;4,7% понизить цены по&nbsp;сравнению с&nbsp;конкурентами</p>
+                    <div class="adv_link adv_link_position">
+                        <button class="adv_btn">
+                            Оставить заявку
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <ul class="adv_card">
+                <li class="adv_card_item">
+                    <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
+                        viewBox="0 0 142 94" fill="none">
+                        <path d="M2.5 1L53.217 82.5094C56.5025 87.7897 62.281 91 68.5 91H142"
+                            stroke="url(#paint0_linear_1_146)" stroke-width="5" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_146" x1="88" y1="1" x2="88" y2="94.7059"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#33A9FF" stop-opacity="0" />
+                                <stop offset="1" stop-color="#33A9FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="adv_icon_wrp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                            <path d="M5.91241 23.8909L23.8917 5.91162" stroke="white" stroke-width="3"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.7024 27.5015L18.5078 25.696" stroke="white" stroke-width="3"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20.7521 23.4539L24.348 19.858" stroke="white" stroke-width="3"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.41828 15.405L15.4085 5.4148C18.5981 2.22516 20.1929 2.21011 23.3525 5.36966L30.7398 12.757C33.8993 15.9165 33.8843 17.5113 30.6946 20.701L20.7045 30.6912C17.5148 33.8808 15.92 33.8958 12.7605 30.7363L5.37314 23.349C2.2136 20.1894 2.2136 18.6097 5.41828 15.405Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3.00909 33.0978H33.1" stroke="white" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <p class="adv_card_item_title">Самые выгодные и низкие цены</p>
+                    <p class="adv_card_item_subtitle">В&nbsp;наличии широкий ассортимент,
+                        а&nbsp;также доступные цены <br>
+                        на&nbsp;ноутбуки Dell</p>
+                </li>
+                <li class="adv_card_item">
+                    <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
+                        viewBox="0 0 142 94" fill="none">
+                        <path d="M2.5 1L53.217 82.5094C56.5025 87.7897 62.281 91 68.5 91H142"
+                            stroke="url(#paint0_linear_1_146)" stroke-width="5" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_146" x1="88" y1="1" x2="88" y2="94.7059"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#33A9FF" stop-opacity="0" />
+                                <stop offset="1" stop-color="#33A9FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="adv_icon_wrp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <path d="M12.5699 18.0001L16.1849 21.6302L23.4299 14.3701" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16.1249 3.67498C17.1599 2.78998 18.8549 2.78998 19.9049 3.67498L22.2749 5.71499C22.7249 6.10499 23.5649 6.41999 24.1649 6.41999H26.7149C28.3049 6.41999 29.6099 7.72499 29.6099 9.31499V11.865C29.6099 12.45 29.9249 13.305 30.3149 13.755L32.3549 16.125C33.2399 17.16 33.2399 18.855 32.3549 19.905L30.3149 22.275C29.9249 22.725 29.6099 23.565 29.6099 24.165V26.715C29.6099 28.305 28.3049 29.61 26.7149 29.61H24.1649C23.5799 29.61 22.7249 29.925 22.2749 30.315L19.9049 32.355C18.8699 33.24 17.1749 33.24 16.1249 32.355L13.7549 30.315C13.3049 29.925 12.4649 29.61 11.8649 29.61H9.26994C7.67994 29.61 6.37494 28.305 6.37494 26.715V24.15C6.37494 23.565 6.05994 22.725 5.68494 22.275L3.65995 19.89C2.78995 18.855 2.78995 17.175 3.65995 16.14L5.68494 13.755C6.05994 13.305 6.37494 12.465 6.37494 11.88V9.29999C6.37494 7.70999 7.67994 6.40499 9.26994 6.40499H11.8649C12.4499 6.40499 13.3049 6.08999 13.7549 5.69999L16.1249 3.67498Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="adv_card_item_title">Авторизованный сервисный центр DELL</p>
+                    <p class="adv_card_item_subtitle">Сертифицированный сервисный центр по&nbsp;ремонту техники Dell в&nbsp;России и&nbsp;странах СНГ</p>
+                </li>
+                <li class="adv_card_item">
+                    <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
+                        viewBox="0 0 142 94" fill="none">
+                        <path d="M2.5 1L53.217 82.5094C56.5025 87.7897 62.281 91 68.5 91H142"
+                            stroke="url(#paint0_linear_1_146)" stroke-width="5" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_146" x1="88" y1="1" x2="88" y2="94.7059"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#33A9FF" stop-opacity="0" />
+                                <stop offset="1" stop-color="#33A9FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="adv_icon_wrp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <path d="M27 10.74C26.91 10.725 26.805 10.725 26.715 10.74C24.645 10.665 22.995 8.97 22.995 6.87C22.995 4.725 24.72 3 26.865 3C29.01 3 30.735 4.74 30.735 6.87C30.72 8.97 29.07 10.665 27 10.74Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25.455 21.66C27.51 22.005 29.775 21.645 31.365 20.58C33.48 19.17 33.48 16.86 31.365 15.45C29.76 14.385 27.465 14.025 25.41 14.385" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.955 10.74C9.045 10.725 9.15 10.725 9.24 10.74C11.31 10.665 12.96 8.97 12.96 6.87C12.96 4.725 11.235 3 9.09 3C6.945 3 5.22 4.74 5.22 6.87C5.235 8.97 6.885 10.665 8.955 10.74Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.5 21.66C8.445 22.005 6.18 21.645 4.59 20.58C2.475 19.17 2.475 16.86 4.59 15.45C6.195 14.385 8.49 14.025 10.545 14.385" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18 21.945C17.91 21.93 17.805 21.93 17.715 21.945C15.645 21.87 13.995 20.175 13.995 18.075C13.995 15.93 15.72 14.205 17.865 14.205C20.01 14.205 21.735 15.945 21.735 18.075C21.72 20.175 20.07 21.885 18 21.945Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.635 26.6699C11.52 28.0799 11.52 30.3899 13.635 31.7999C16.035 33.4049 19.965 33.4049 22.365 31.7999C24.48 30.3899 24.48 28.0799 22.365 26.6699C19.98 25.0799 16.035 25.0799 13.635 26.6699Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="adv_card_item_title">Высокий уровень технической экспертизы</p>
+                    <p class="adv_card_item_subtitle">Мы&nbsp;прошли аттестацию в&nbsp;виде тестирования, где показали высокий уровень знаний</p>
+                </li>
+                <li class="adv_card_item">
+                    <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
+                        viewBox="0 0 142 94" fill="none">
+                        <path d="M2.5 1L53.217 82.5094C56.5025 87.7897 62.281 91 68.5 91H142"
+                            stroke="url(#paint0_linear_1_146)" stroke-width="5" />
+                        <defs>
+                            <linearGradient id="paint0_linear_1_146" x1="88" y1="1" x2="88" y2="94.7059"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#33A9FF" stop-opacity="0" />
+                                <stop offset="1" stop-color="#33A9FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <div class="adv_icon_wrp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                            <path d="M19.38 3.41492L29.145 8.7187C30.285 9.33823 30.285 11.1062 29.145 11.7257L19.38 17.0295C18.51 17.4979 17.49 17.4979 16.62 17.0295L6.855 11.7257C5.715 11.1062 5.715 9.33823 6.855 8.7187L16.62 3.41492C17.49 2.94649 18.51 2.94649 19.38 3.41492Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.415 15.3069L14.49 19.8854C15.615 20.4596 16.335 21.6231 16.335 22.8924V31.5356C16.335 32.7898 15.03 33.5906 13.92 33.0316L4.845 28.4531C3.72 27.8789 3 26.7154 3 25.4461V16.8029C3 15.5487 4.305 14.7478 5.415 15.3069Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30.585 15.3069L21.51 19.8854C20.385 20.4596 19.665 21.6231 19.665 22.8924V31.5356C19.665 32.7898 20.97 33.5906 22.08 33.0316L31.155 28.4531C32.28 27.8789 33 26.7154 33 25.4461V16.8029C33 15.5487 31.695 14.7478 30.585 15.3069Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <p class="adv_card_item_title">Официальный партнер DELL</p>
+                    <p class="adv_card_item_subtitle">Официальный поставщик <br> продукции DELL&nbsp;в России <br>
+                    и&nbsp;странах СНГ</p>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
