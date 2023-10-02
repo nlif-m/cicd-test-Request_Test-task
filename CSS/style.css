@@ -154,9 +154,34 @@ li {
     top: 74px;
 }
 
+.slide_to_catalog {
+    position: relative;
+}
+
+.anchor_to_catalog {
+    max-width: 113px;
+    height: 19px;
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 400px;
+    left: -320px;
+}
+
+.catalog_anchor_svg {
+    position: absolute;
+    transform: rotate(90deg);
+    top: -10px;
+    left: -42px;
+}
+
 .slide-content {
     position: absolute;
-    top: 100px;
+    top: 76px;
     left: 117px;
     z-index: 5;
     /* width: 100%; */
@@ -516,7 +541,7 @@ li {
     position: relative;
     padding-top: 152px;
     box-sizing: border-box;
-    max-height: 962px;
+    max-height: 964px;
 }
 
 .advantages_container {
@@ -686,3 +711,173 @@ li {
 }
 
 /* ADVANTAGES */
+
+/* NEWS */
+.news_container {
+    padding-top: 172px;
+}
+
+.news_header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.news_title {
+    color: #292D32;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 0px 25px 0px;
+}
+
+.news_subtitle {
+    color: #838383;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    max-width: 721px;
+}
+
+.news_link_position {
+    position: absolute;
+    right: 60px;
+}
+
+.news_btn {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.3s;
+    color: #292D32;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+}
+
+.news_btn::after {
+    content: "→";
+    width: 55px;
+    height: 55px;
+    background-color: #48A4EB;
+    right: -60px;
+    top: -14px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Circe;
+    font-size: 18.743px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.143px;
+}
+
+.news_card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 415px);
+    grid-template-rows: repeat(2, 364px);
+    grid-gap: 65px;
+    margin: 0 auto;
+
+}
+
+.news_card_item {
+    /* background-color: #292d32; */
+    position: relative;
+    -webkit-box-shadow: 0px 22px 17px -20px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 22px 17px -20px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 22px 17px -20px rgba(34, 60, 80, 0.2);
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.news_card_item_bcg {
+    background-size: cover;
+    position: absolute;
+}
+
+.news_card_title::after {
+    content: "11 июля";
+    position: absolute;
+    width: 50px;
+    height: 97px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 6px 6px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.news_card_item_whiteplace {
+    position: absolute;
+    bottom: 0px;
+}
+
+.news_card_title {
+    max-width: 268px;
+    color: #292D32;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    position: absolute;
+    top: 239px;
+    left: 30px;
+}
+
+.news_card_subtitle {
+    color: #292D32;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    position: absolute;
+    top: 318px;
+    left: 30px;
+}
+
+.news_card_item_btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+}
+
+.news_card_btn_stuff {
+    position: absolute;
+    top: 228px;
+    left: 306px;
+}
+
+.news_card_btn_circle {
+    position: absolute;
+    top: 219px;
+    left: 322px;
+}
+
+.vector {
+    content: "→";
+    width: 55px;
+    height: 55px;
+    left: 329px;
+    top: 225px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Circe;
+    font-size: 18.743px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.143px;
+}
+
+/* NEWS */

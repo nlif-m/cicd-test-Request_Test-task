@@ -163,6 +163,16 @@
                     </defs>
                 </svg>
                 <img class="slide-image" src="img/Photo for slider 1.png" alt="slider 1">
+                <p class="slide_to_catalog">
+                    <a href="#catalog_anchor" class="anchor_to_catalog">Scroll to catalog
+                        <svg class="catalog_anchor_svg" xmlns="http://www.w3.org/2000/svg" width="25" height="39"
+                            viewBox="0 0 25 39" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                fill="#33A9FF" />
+                        </svg>
+                    </a>
+                </p>
                 <div class="slide-content">
                     <p class="slide_uptitle">Новое поступление</p>
                     <p class="slide-title">Лучшие товары<br />от&nbsp;компании Dell</p>
@@ -210,6 +220,16 @@
                     </defs>
                 </svg>
                 <img class="slide-image" src="img/Photo for slider 2.png" alt="slider 2">
+                <p class="slide_to_catalog">
+                    <a href="#catalog_anchor" class="anchor_to_catalog">Scroll to catalog
+                        <svg class="catalog_anchor_svg" xmlns="http://www.w3.org/2000/svg" width="25" height="39"
+                            viewBox="0 0 25 39" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                fill="#33A9FF" />
+                        </svg>
+                    </a>
+                </p>
                 <div class="slide-content">
                     <p class="slide_uptitle">Новое поступление</p>
                     <p class="slide-title">Выгодное предложение от&nbsp;Dell</p>
@@ -259,6 +279,16 @@
                 <img class="slide-image"
                     src="https://images.unsplash.com/photo-1682685797828-d3b2561deef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
                     alt="slider 3">
+                <p class="slide_to_catalog">
+                    <a href="#catalog_anchor" class="anchor_to_catalog">Scroll to catalog
+                        <svg class="catalog_anchor_svg" xmlns="http://www.w3.org/2000/svg" width="25" height="39"
+                            viewBox="0 0 25 39" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M23 13V26.5C23 32.299 18.299 37 12.5 37C6.70101 37 2 32.299 2 26.5V13C2 7.20101 6.70101 2.5 12.5 2.5C18.299 2.5 23 7.20101 23 13ZM0 13C0 6.09644 5.59644 0.5 12.5 0.5C19.4036 0.5 25 6.09644 25 13V26.5C25 33.4036 19.4036 39 12.5 39C5.59644 39 0 33.4036 0 26.5V13ZM11.5 20.5V29.5L13.5 29.5V20.5H11.5Z"
+                                fill="#33A9FF" />
+                        </svg>
+                    </a>
+                </p>
                 <div class="slide-content">
                     <p class="slide_uptitle">Новое поступление</p>
                     <p class="slide-title">сижу 7-ой час. пока без фонового dell</p>
@@ -267,7 +297,6 @@
                     </button>
                 </div>
             </div>
-            <!-- Next and previous buttons -->
             <div class="slider-nav">
                 <!-- <a class="slider-nav-btn" onclick="plusSlides(-1)">
                     <ion-icon name="caret-back-outline"></ion-icon>
@@ -278,8 +307,6 @@
                     </svg>
                 </a>
             </div>
-
-            <!-- The dots/circles -->
             <div class="dot-container">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
@@ -287,7 +314,7 @@
             </div>
         </div>
     </section>
-    <section class="catalog full">
+    <section id="catalog_anchor" class="catalog full">
         <ul class="catalog_container center">
             <li class="catalog_item">
                 <p class="catalog_title">Каталог товаров от Dell</p>
@@ -408,12 +435,16 @@
                     </svg>
                     <div class="adv_icon_wrp">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                            <path d="M12.5699 18.0001L16.1849 21.6302L23.4299 14.3701" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M16.1249 3.67498C17.1599 2.78998 18.8549 2.78998 19.9049 3.67498L22.2749 5.71499C22.7249 6.10499 23.5649 6.41999 24.1649 6.41999H26.7149C28.3049 6.41999 29.6099 7.72499 29.6099 9.31499V11.865C29.6099 12.45 29.9249 13.305 30.3149 13.755L32.3549 16.125C33.2399 17.16 33.2399 18.855 32.3549 19.905L30.3149 22.275C29.9249 22.725 29.6099 23.565 29.6099 24.165V26.715C29.6099 28.305 28.3049 29.61 26.7149 29.61H24.1649C23.5799 29.61 22.7249 29.925 22.2749 30.315L19.9049 32.355C18.8699 33.24 17.1749 33.24 16.1249 32.355L13.7549 30.315C13.3049 29.925 12.4649 29.61 11.8649 29.61H9.26994C7.67994 29.61 6.37494 28.305 6.37494 26.715V24.15C6.37494 23.565 6.05994 22.725 5.68494 22.275L3.65995 19.89C2.78995 18.855 2.78995 17.175 3.65995 16.14L5.68494 13.755C6.05994 13.305 6.37494 12.465 6.37494 11.88V9.29999C6.37494 7.70999 7.67994 6.40499 9.26994 6.40499H11.8649C12.4499 6.40499 13.3049 6.08999 13.7549 5.69999L16.1249 3.67498Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12.5699 18.0001L16.1849 21.6302L23.4299 14.3701" stroke="white" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M16.1249 3.67498C17.1599 2.78998 18.8549 2.78998 19.9049 3.67498L22.2749 5.71499C22.7249 6.10499 23.5649 6.41999 24.1649 6.41999H26.7149C28.3049 6.41999 29.6099 7.72499 29.6099 9.31499V11.865C29.6099 12.45 29.9249 13.305 30.3149 13.755L32.3549 16.125C33.2399 17.16 33.2399 18.855 32.3549 19.905L30.3149 22.275C29.9249 22.725 29.6099 23.565 29.6099 24.165V26.715C29.6099 28.305 28.3049 29.61 26.7149 29.61H24.1649C23.5799 29.61 22.7249 29.925 22.2749 30.315L19.9049 32.355C18.8699 33.24 17.1749 33.24 16.1249 32.355L13.7549 30.315C13.3049 29.925 12.4649 29.61 11.8649 29.61H9.26994C7.67994 29.61 6.37494 28.305 6.37494 26.715V24.15C6.37494 23.565 6.05994 22.725 5.68494 22.275L3.65995 19.89C2.78995 18.855 2.78995 17.175 3.65995 16.14L5.68494 13.755C6.05994 13.305 6.37494 12.465 6.37494 11.88V9.29999C6.37494 7.70999 7.67994 6.40499 9.26994 6.40499H11.8649C12.4499 6.40499 13.3049 6.08999 13.7549 5.69999L16.1249 3.67498Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
                     <p class="adv_card_item_title">Авторизованный сервисный центр DELL</p>
-                    <p class="adv_card_item_subtitle">Сертифицированный сервисный центр по&nbsp;ремонту техники Dell в&nbsp;России и&nbsp;странах СНГ</p>
+                    <p class="adv_card_item_subtitle">Сертифицированный сервисный центр по&nbsp;ремонту техники Dell
+                        в&nbsp;России и&nbsp;странах СНГ</p>
                 </li>
                 <li class="adv_card_item">
                     <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
@@ -430,16 +461,29 @@
                     </svg>
                     <div class="adv_icon_wrp">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                            <path d="M27 10.74C26.91 10.725 26.805 10.725 26.715 10.74C24.645 10.665 22.995 8.97 22.995 6.87C22.995 4.725 24.72 3 26.865 3C29.01 3 30.735 4.74 30.735 6.87C30.72 8.97 29.07 10.665 27 10.74Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M25.455 21.66C27.51 22.005 29.775 21.645 31.365 20.58C33.48 19.17 33.48 16.86 31.365 15.45C29.76 14.385 27.465 14.025 25.41 14.385" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M8.955 10.74C9.045 10.725 9.15 10.725 9.24 10.74C11.31 10.665 12.96 8.97 12.96 6.87C12.96 4.725 11.235 3 9.09 3C6.945 3 5.22 4.74 5.22 6.87C5.235 8.97 6.885 10.665 8.955 10.74Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M10.5 21.66C8.445 22.005 6.18 21.645 4.59 20.58C2.475 19.17 2.475 16.86 4.59 15.45C6.195 14.385 8.49 14.025 10.545 14.385" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M18 21.945C17.91 21.93 17.805 21.93 17.715 21.945C15.645 21.87 13.995 20.175 13.995 18.075C13.995 15.93 15.72 14.205 17.865 14.205C20.01 14.205 21.735 15.945 21.735 18.075C21.72 20.175 20.07 21.885 18 21.945Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M13.635 26.6699C11.52 28.0799 11.52 30.3899 13.635 31.7999C16.035 33.4049 19.965 33.4049 22.365 31.7999C24.48 30.3899 24.48 28.0799 22.365 26.6699C19.98 25.0799 16.035 25.0799 13.635 26.6699Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path
+                                d="M27 10.74C26.91 10.725 26.805 10.725 26.715 10.74C24.645 10.665 22.995 8.97 22.995 6.87C22.995 4.725 24.72 3 26.865 3C29.01 3 30.735 4.74 30.735 6.87C30.72 8.97 29.07 10.665 27 10.74Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M25.455 21.66C27.51 22.005 29.775 21.645 31.365 20.58C33.48 19.17 33.48 16.86 31.365 15.45C29.76 14.385 27.465 14.025 25.41 14.385"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M8.955 10.74C9.045 10.725 9.15 10.725 9.24 10.74C11.31 10.665 12.96 8.97 12.96 6.87C12.96 4.725 11.235 3 9.09 3C6.945 3 5.22 4.74 5.22 6.87C5.235 8.97 6.885 10.665 8.955 10.74Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M10.5 21.66C8.445 22.005 6.18 21.645 4.59 20.58C2.475 19.17 2.475 16.86 4.59 15.45C6.195 14.385 8.49 14.025 10.545 14.385"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M18 21.945C17.91 21.93 17.805 21.93 17.715 21.945C15.645 21.87 13.995 20.175 13.995 18.075C13.995 15.93 15.72 14.205 17.865 14.205C20.01 14.205 21.735 15.945 21.735 18.075C21.72 20.175 20.07 21.885 18 21.945Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M13.635 26.6699C11.52 28.0799 11.52 30.3899 13.635 31.7999C16.035 33.4049 19.965 33.4049 22.365 31.7999C24.48 30.3899 24.48 28.0799 22.365 26.6699C19.98 25.0799 16.035 25.0799 13.635 26.6699Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
                     <p class="adv_card_item_title">Высокий уровень технической экспертизы</p>
-                    <p class="adv_card_item_subtitle">Мы&nbsp;прошли аттестацию в&nbsp;виде тестирования, где показали высокий уровень знаний</p>
+                    <p class="adv_card_item_subtitle">Мы&nbsp;прошли аттестацию в&nbsp;виде тестирования, где показали
+                        высокий уровень знаний</p>
                 </li>
                 <li class="adv_card_item">
                     <svg class="adv_card_bluelight" xmlns="http://www.w3.org/2000/svg" width="142" height="94"
@@ -456,18 +500,114 @@
                     </svg>
                     <div class="adv_icon_wrp">
                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
-                            <path d="M19.38 3.41492L29.145 8.7187C30.285 9.33823 30.285 11.1062 29.145 11.7257L19.38 17.0295C18.51 17.4979 17.49 17.4979 16.62 17.0295L6.855 11.7257C5.715 11.1062 5.715 9.33823 6.855 8.7187L16.62 3.41492C17.49 2.94649 18.51 2.94649 19.38 3.41492Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M5.415 15.3069L14.49 19.8854C15.615 20.4596 16.335 21.6231 16.335 22.8924V31.5356C16.335 32.7898 15.03 33.5906 13.92 33.0316L4.845 28.4531C3.72 27.8789 3 26.7154 3 25.4461V16.8029C3 15.5487 4.305 14.7478 5.415 15.3069Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M30.585 15.3069L21.51 19.8854C20.385 20.4596 19.665 21.6231 19.665 22.8924V31.5356C19.665 32.7898 20.97 33.5906 22.08 33.0316L31.155 28.4531C32.28 27.8789 33 26.7154 33 25.4461V16.8029C33 15.5487 31.695 14.7478 30.585 15.3069Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path
+                                d="M19.38 3.41492L29.145 8.7187C30.285 9.33823 30.285 11.1062 29.145 11.7257L19.38 17.0295C18.51 17.4979 17.49 17.4979 16.62 17.0295L6.855 11.7257C5.715 11.1062 5.715 9.33823 6.855 8.7187L16.62 3.41492C17.49 2.94649 18.51 2.94649 19.38 3.41492Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M5.415 15.3069L14.49 19.8854C15.615 20.4596 16.335 21.6231 16.335 22.8924V31.5356C16.335 32.7898 15.03 33.5906 13.92 33.0316L4.845 28.4531C3.72 27.8789 3 26.7154 3 25.4461V16.8029C3 15.5487 4.305 14.7478 5.415 15.3069Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M30.585 15.3069L21.51 19.8854C20.385 20.4596 19.665 21.6231 19.665 22.8924V31.5356C19.665 32.7898 20.97 33.5906 22.08 33.0316L31.155 28.4531C32.28 27.8789 33 26.7154 33 25.4461V16.8029C33 15.5487 31.695 14.7478 30.585 15.3069Z"
+                                stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
                     <p class="adv_card_item_title">Официальный партнер DELL</p>
                     <p class="adv_card_item_subtitle">Официальный поставщик <br> продукции DELL&nbsp;в России <br>
-                    и&nbsp;странах СНГ</p>
+                        и&nbsp;странах СНГ</p>
                 </li>
             </ul>
         </div>
 
+    </section>
+    <section class="news full">
+        <div class="news_container center">
+            <div class="news_header">
+                <div>
+                    <p class="news_title">Последние новости</p>
+                    <p class="news_subtitle">Вы можете посмотреть ещё больше интересных новостей и узнать о последних
+                        новинках, перейдя по кнопке</p>
+                </div>
+                <div class="news_link news_link_position">
+                    <button class="news_btn">
+                        Все новости
+                    </button>
+                </div>
+            </div>
+            <div class="news_card_container">
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_1.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_2.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_3.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_4.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_5.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                </div>
+                <div class="news_card_item">
+                    <img class="news_card_item_bcg" src="img/news_6.png" alt="photo">
+                    <svg class="news_card_item_whiteplace" xmlns="http://www.w3.org/2000/svg" width="415" height="146"
+                        viewBox="0 0 415 146" fill="none">
+                        <path
+                            d="M0 0L257.171 0C268.101 0 278.555 4.47282 286.103 12.3786L301.413 28.4155C308.961 36.3213 319.415 40.7941 330.345 40.7941H374.816C395.697 40.7941 413.065 24.7322 414.694 3.91473L415 0V101C415 125.853 394.853 146 370 146H0V0Z"
+                            fill="white" />
+                    </svg>
+                    <p class="news_card_title">GE использует технологии Dell </p>
+                    <p class="news_card_subtitle">Вы можете посмотреть ещё больше интересных </p>
+                    <button class="news_card_item_btn">
+                        <svg class="news_card_btn_stuff" xmlns="http://www.w3.org/2000/svg" width="95" height="35"
+                            viewBox="0 0 95 35" fill="none">
+                            <path
+                                d="M19 8.50003C13 17 4.16667 12.5 0 10L1 19L25 33L75 35C84 25 99.7724 1.70812 92 8.0001C81.5 16.5001 78 8.5 75.5 4.4999C58.8333 3.9999 29.0424 -5.7267 19 8.50003Z"
+                                fill="white" />
+                        </svg>
+                        
+                        <svg class="news_card_btn_circle" xmlns="http://www.w3.org/2000/svg" width="67" height="67"
+                            viewBox="0 0 67 67" fill="none">
+                            <circle cx="33.5" cy="33.5" r="27.5" fill="#292D32" stroke="white" stroke-width="12" />
+                        </svg>
+                        <div class="vector">
+                            →
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
 
     <script src="script.js"></script>
