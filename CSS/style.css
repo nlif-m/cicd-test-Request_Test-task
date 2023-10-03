@@ -739,6 +739,7 @@ li {
     font-weight: 300;
     line-height: 150%;
     max-width: 721px;
+    margin-bottom: 69px;
 }
 
 .news_link_position {
@@ -787,6 +788,7 @@ li {
     grid-template-rows: repeat(2, 364px);
     grid-gap: 65px;
     margin: 0 auto;
+    margin-bottom: 180px;
 
 }
 
@@ -806,13 +808,16 @@ li {
 }
 
 .news_card_title::after {
-    content: "11 июля";
+    content: "";
+    top: -170px;
+    left: 352px;
     position: absolute;
     width: 50px;
     height: 97px;
     border-radius: 15px;
     background: #FFF;
-    box-shadow: 6px 6px 30px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 17px 51px -17px rgba(0, 0, 0, 0.6);
+    z-index: 0;
 }
 
 .news_card_item_whiteplace {
@@ -830,6 +835,31 @@ li {
     position: absolute;
     top: 239px;
     left: 30px;
+}
+
+.news_card_title_date {
+    color: #292D32;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: -150px;
+    left: 365px;
+    z-index: 1;
+}
+
+.news_card_title_month {
+    color: #292D32;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    top: -113px;
+    left: 364px;
+    z-index: 1;
 }
 
 .news_card_subtitle {
@@ -881,3 +911,176 @@ li {
 }
 
 /* NEWS */
+/* FORM */
+.form {
+    display: block;
+    min-height: 700px;
+    background-color: #eee;
+}
+
+.form_container {
+
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+}
+
+.our_contacts {
+    padding: 100px 158px 111px 100px;
+    background-color: #F9F9F9;
+    border-radius: 20px 0px 0px 20px;
+    flex: 1;
+}
+
+.our_contacts_title {
+    color: #292D32;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.our_contacts_subtitle {
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 18px;
+}
+
+.our_contacts_address {
+    margin-top: 48px;
+    margin-bottom: 47px;
+}
+
+.our_contacts_email {
+    margin-bottom: 72px;
+}
+
+.our_contacts_phone {
+    margin-bottom: 60px;
+}
+
+.our_contacts_flex {
+    display: flex;
+    gap: 17px;
+}
+
+.address_point {}
+
+.word_address_position {
+    margin: 5px 0px 8px 0px;
+}
+
+.word_email_position {
+    margin: 3px 0px 8px 0px;
+}
+
+.word_phone_position {
+    margin: 5px 0px 8px 0px;
+}
+
+.our_contacts_word {
+    color: #838383;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.687%;
+}
+
+.our_contacts_name {
+    color: #292D32;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 358px;
+}
+
+.form_block {
+    border-radius: 0px 20px 20px 0px;
+    background: #292D32;
+    padding: 100px 129px 103px 129px;
+    box-sizing: border-box;
+    flex: 1;
+    position: relative;
+}
+
+.form_block_title {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 18px;
+}
+
+.form_block_subtitle {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 66px;
+}
+
+#form_block_name, #form_block_phone, #form_block_comment{
+    width: 434px;
+    height: 59.25px;
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    border: 1px solid rgba(242, 242, 242, 0.50);
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 0px 5% 0px 5%;
+    box-sizing: border-box;color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 53px;
+}
+
+#form_block_comment{
+    min-height: 145px;
+}
+
+.form_block_name_txt, .form_block_phone_txt, .form_block_comment_txt{
+    color: #F2F2F2;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 133.687%;
+    display: flex;
+    justify-content: center;
+}
+
+.form_block_leftup_corner_name{
+    position: absolute;
+    top: 246px;
+    left: 152px;
+    width: 102px;
+    height: 27px;
+    background-color: #292D32;
+}
+
+.form_block_leftup_corner_phone{
+    position: absolute;
+    top: 357px;
+    left: 152px;
+    width: 160px;
+    height: 27px;
+    background-color: #292D32;
+}
+
+.form_block_leftup_corner_comment{
+    position: absolute;
+    top: 470px;
+    left: 152px;
+    width: 136px;
+    height: 27px;
+    background-color: #292D32;
+}
+
+/* FORM */
