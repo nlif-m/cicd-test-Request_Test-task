@@ -46,3 +46,16 @@ function currentSlide(n) {
 
 // Initialize the slider
 showSlides(slideIndex);
+
+
+const menuButton = document.querySelector('.menu-button');
+const menu = document.querySelector('.menu');
+const menuContainer = document.querySelector('.menu-container');
+
+menuButton.addEventListener('mouseover', () => {
+    menu.style.display = 'flex';
+});
+
+menu.addEventListener('mouseleave', () => {
+    menu.style.display = 'none';
+});

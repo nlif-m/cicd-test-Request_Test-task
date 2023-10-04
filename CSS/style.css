@@ -20,14 +20,14 @@ li {
     max-width: 1920px;
     width: 100%;
     margin: 0px auto;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
 }
 
 .center {
     max-width: 1400px;
     width: 100%;
     margin: 0px auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 /* HEADER */
@@ -114,6 +114,59 @@ li {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.menu-button {
+    color: white;
+    border: none;
+    position: relative;
+}
+
+.menu-container {
+    max-width: 140px;
+    max-height: 250px;
+    position: relative;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: -500%;
+    left: 668%;
+    background-color: #fff;
+    flex-direction: column;
+    /* gap: 40px; */
+    padding: 30px 30px 0px 30px;
+    width: 405px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 1px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.menu_acc {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    /* display: block; */
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* margin: 20px 20px 20px 0px; */
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.menu a:hover {
+    background-color: #f0f0f0;
 }
 
 /* HEADER */
@@ -788,7 +841,7 @@ li {
     grid-template-rows: repeat(2, 364px);
     grid-gap: 65px;
     margin: 0 auto;
-    margin-bottom: 180px;
+    margin-bottom: 540px;
 
 }
 
@@ -914,15 +967,37 @@ li {
 /* FORM */
 .form {
     display: block;
-    min-height: 700px;
+    max-height: 676px;
     background-color: #eee;
+    position: relative;
+    margin-top: 346px;
+    margin-bottom: 60px;
+}
+
+.bcg_txt {
+    position: absolute;
+    bottom: 20px;
+    font-size: 255px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 92.687%;
+    text-transform: uppercase;
+    opacity: 0.6;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.85) 11.75%, rgba(255, 255, 255, 0.00) 162.35%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .form_container {
-
+    position: relative;
     display: flex;
     width: 100%;
     min-height: 700px;
+}
+
+.form_container_upper {
+    bottom: 389px
 }
 
 .our_contacts {
@@ -1025,7 +1100,7 @@ li {
     margin-bottom: 66px;
 }
 
-#form_block_name, #form_block_phone, #form_block_comment{
+#form_block_name, #form_block_phone, #form_block_comment {
     width: 434px;
     height: 59.25px;
     flex-shrink: 0;
@@ -1034,7 +1109,8 @@ li {
     border-radius: 20px;
     background-color: transparent;
     padding: 0px 5% 0px 5%;
-    box-sizing: border-box;color: #FFF;
+    box-sizing: border-box;
+    color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1042,11 +1118,13 @@ li {
     margin-bottom: 53px;
 }
 
-#form_block_comment{
+#form_block_comment {
     min-height: 145px;
+    resize: none;
+    padding: 10px;
 }
 
-.form_block_name_txt, .form_block_phone_txt, .form_block_comment_txt{
+.form_block_name_txt, .form_block_phone_txt, .form_block_comment_txt {
     color: #F2F2F2;
     font-size: 18px;
     font-style: normal;
@@ -1056,7 +1134,7 @@ li {
     justify-content: center;
 }
 
-.form_block_leftup_corner_name{
+.form_block_leftup_corner_name {
     position: absolute;
     top: 246px;
     left: 152px;
@@ -1065,7 +1143,7 @@ li {
     background-color: #292D32;
 }
 
-.form_block_leftup_corner_phone{
+.form_block_leftup_corner_phone {
     position: absolute;
     top: 357px;
     left: 152px;
@@ -1074,7 +1152,7 @@ li {
     background-color: #292D32;
 }
 
-.form_block_leftup_corner_comment{
+.form_block_leftup_corner_comment {
     position: absolute;
     top: 470px;
     left: 152px;
@@ -1083,4 +1161,158 @@ li {
     background-color: #292D32;
 }
 
+.form_block_link_position {
+    position: absolute;
+    bottom: 114px;
+    left: 204px;
+}
+
+.form_block_btn {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    transition: ease 0.3s;
+    position: relative;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.form_block_btn::before {
+    content: "→";
+    width: 55px;
+    height: 55px;
+    background-color: #48A4EB;
+    right: 92px;
+    top: -14px;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Circe;
+    font-size: 18.743px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.143px;
+}
+
+.form_smartphone_rel {
+    position: relative;
+}
+
+.form_smartphone_abs {
+    position: absolute;
+    top: 152px;
+    left: 492px;
+}
+
+.body_phone, .screen_phone {
+    position: absolute;
+}
+
+.screen_phone {
+    position: absolute;
+    right: -262px;
+    top: 28px;
+}
+
 /* FORM */
+
+/* FOOTER */
+.footer {}
+
+.footer_container {
+    display: flex;
+    gap: 180px;
+}
+
+.footer_logo {
+    margin-top: 29px;
+    margin-right: 10px;
+    max-width: 112px;
+    width: 100%;
+    max-height: 112px;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_links_title {
+    margin-bottom: 5px;
+    color: #292D32;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_links_item {
+    color: #292D32;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer_grey_line {
+    width: 100%;
+    height: 1px;
+    background: #E5E5E5;
+    margin-top: 60px;
+}
+
+.footer_contacts {
+    display: flex;
+    gap: 153px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.footer_contacts_email {
+    margin-bottom: 72px;
+}
+
+.footer_contacts_phone {
+    margin-bottom: 60px;
+}
+
+.footer_contacts_flex {
+    display: flex;
+    gap: 17px;
+}
+
+.footer_contacts_word {
+    color: #838383;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.687%;
+    margin-bottom: 11px;
+}
+
+.footer_contacts_name {
+    color: #292D32;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 404px;
+}
+
+.footer_contacts_messengers_position {
+    position: absolute;
+    top: 13px;
+}
+
+
+/* FOOTER */
