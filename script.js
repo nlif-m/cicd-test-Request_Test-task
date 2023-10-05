@@ -44,7 +44,6 @@ function currentSlide(n) {
 //   plusSlides(1);
 // }, 50000);
 
-// Initialize the slider
 showSlides(slideIndex);
 
 
@@ -54,8 +53,22 @@ const menuContainer = document.querySelector('.menu-container');
 
 menuButton.addEventListener('mouseover', () => {
     menu.style.display = 'flex';
+    menuContainer.style.backgroundColor = "white";
+    menuContainer.style.boxShadow = "0px 1px 8px 0px rgba(34, 60, 80, 0.2)";
 });
 
 menu.addEventListener('mouseleave', () => {
     menu.style.display = 'none';
+    menuContainer.style.backgroundColor = "transparent";
+    menuContainer.style.boxShadow = "none";
 });
+
+let humanName = 'Мария';
+const accountName = document.querySelector('.header_account_name');
+const menuAcc = document.querySelector('.menu_acc');
+const human = document.createElement('p');
+const humanMenu = document.createElement('p');
+human.textContent = humanName;
+humanMenu.textContent = humanName;
+accountName.append(human);
+menuAcc.insertAdjacentElement('afterend', humanMenu);
